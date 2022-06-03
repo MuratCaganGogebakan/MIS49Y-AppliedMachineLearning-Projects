@@ -1,5 +1,5 @@
 # MIS 49Y Applied Machine Learning Final Project PyClass
-## Project: Predicting Housing Prices
+## Project: House Prices - Advance Regression Techniques
 
 ### Install
 
