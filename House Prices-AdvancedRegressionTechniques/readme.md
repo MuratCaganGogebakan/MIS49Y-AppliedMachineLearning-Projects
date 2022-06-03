@@ -143,4 +143,29 @@ Ensemble: 0.040434 RMSE
 ```
 
 
+Our submission RMSE is lower than what we achieved in our experiments; this is likely due to the differences in the normalization algorithm Kaggle uses.
+
+### Discussion
+
+Carefully reading and understanding features then using that understanding to preprocess them appropriately was the main contributor of our result. We tried implementing different techniques to improve it, but we were not very successful in our efforts. After reviewing other submissions and the literature we found out that we were indeed successful among peers in feature encoding and preprocessing.
+
+Our weaknesses were that we did not do any advanced hyperparameter tunning since that was beyond our knowledge and experience level at the time. Also, some approaches in Kaggle added interesting new features using the existing ones by both combining features and doing mathematical transformations on them. In the future we plan to study those techniques and improve our ranking with them.
+
+### Conclusion
+
+In this work we utilized all the techniques we learned during the semester. It was a rewarding experience to combine them and make our first Kaggle submission. We learned that not all techniques are suitable for all problems, and we must try and test different approaches to a problem. Even though we can’t benefit from every single technique we learned in every ML problem, we learned how to learn different approaches and some of the techniques we learned were universal so that they were useful in almost every ML problem like data visualization.
+
+To our knowledge none of the discussions in Kaggle does inspect every feature like we do, so this is our greatest contribution to the problem. There are also many different approaches we did not use in our work, but we plan to combine those with ours to achieve top 100 ranking in the near future.
+
+### References
+
+[1] House Price Prediction using a Machine Learning Model: A Survey of Literature
+December 2020International Journal of Modern Education and Computer Science 12(6):46-54
+DOI: 10.5815/ijmecs.2020.06.04
+[2] Hedonic Housing Theory – A Machine Learning Investigation. December 2016. DOI:   10.1109/ICMLA.2016.0092. Conference: 2016 15th IEEE International Conference on Machine Learning and Applications (ICMLA)
+[3] Flat Price Prediction Using Linear and Random Forest Regression Based on Machine Learning Techniques. January 2020. DOI: 10.1007/978-981-15-6025-5_19. In book: Embracing Industry 4.0
+[4] S. P. Ellis and S. Morgenthaler, “Leverage and breakdown in L1regression,” J. Am. Stat. Assoc., vol. 87, no. 417, pp. 143–148, 1992, doi: 10.1080/01621459.1992.10475185.
+[5] Wu, Jiao Yang, "Housing Price prediction Using Support Vector Regression" (2017). Master's Projects. 540. DOI: https://doi.org/10.31979/etd.vpub-6bgs
+https://scholarworks.sjsu.edu/etd_projects/540
+
 
