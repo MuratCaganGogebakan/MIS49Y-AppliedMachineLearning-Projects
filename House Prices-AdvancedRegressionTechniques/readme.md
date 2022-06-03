@@ -23,7 +23,7 @@ Main code is provided in the `Group_project.ipynb` notebook file. You will also 
 Run one of the following command:
 
 ```bash
-jupyter notebook boston_housing.ipynb
+jupyter notebook Group_project.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
